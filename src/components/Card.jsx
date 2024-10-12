@@ -6,10 +6,6 @@ import {motion} from "framer-motion"
 export const Card = ({ item ,index, deleteCard, reference, handleToggleComplete }) => {
   console.log(item);
 
-  const [docsDone, setDocsDone] = useState(false);
-
-
-
   return (
     <>
       <motion.div drag dragConstraints={reference} whileDrag={{scale:1.1}} whileTap={{cursor:PointerEvent}} dragMomentum={12000}  className=" relative w-[230px] min-h-[270px] p-7 rounded-[40px]  bg-[#00000075] text-gray-400 overflow-hidden">

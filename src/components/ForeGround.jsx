@@ -75,7 +75,7 @@ export const ForeGround = () => {
         </div>
         <button
           onClick={() => setIsOpen(true)}
-          className="text-[100px] bg-black text-green-500 fixed bottom-[100px] right-[50px]  rounded-full"
+          className="sm:text-[100px] text-[70px] bg-black text-green-500 fixed bottom-[100px] right-[50px]  rounded-full"
         >
           <IoMdAdd />
         </button>
